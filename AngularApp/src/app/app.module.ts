@@ -5,6 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { EmployeeComponent } from './employee/employee.component';
+import { StoreModule } from './store/module';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { EmployeeComponent } from './employee/employee.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    StoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
